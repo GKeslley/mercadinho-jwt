@@ -32,7 +32,7 @@ e dados são modificados a partir de arquivos .csv, simulando um banco de dados 
 # Clone este repositório
 $ git clone https://github.com/GKeslley/mercadinho-jwt.git
 
-# Acesse a pasta do projeto no seu terminal/cmd
+# Acesse a pasta do projeto no seu terminal/cmd e insira dentro da pasta "htdocs" do seu apache
 $ cd mercadinho_jwt
 
 #Inicie o servidor local apache
