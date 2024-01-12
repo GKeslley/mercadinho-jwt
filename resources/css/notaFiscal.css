@@ -1,0 +1,10 @@
+.nota-titulo {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.nota-infos {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}

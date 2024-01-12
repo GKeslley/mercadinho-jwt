@@ -1,0 +1,22 @@
+.header {
+  background: #fff;
+  box-shadow: 0 0 2px #0000001f;
+  display: flex;
+  align-items: center;
+  padding: 2rem 1rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.header nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
