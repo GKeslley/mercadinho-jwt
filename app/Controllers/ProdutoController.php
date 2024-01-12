@@ -98,7 +98,7 @@ class ProdutoController implements ICsvManipulador
                 // Formata o preço enviado para o padrão americano
                 $preco = str_replace(',', '.', $preco);
                 
-                // Verifica se $preco é um número válido
+                // Verifica se $nome é um nome válido
                 if (empty($nome)) {
                     throw new \Exception("Nome inválido.\nDigite o nome do produto corretamente!");
                 }
