@@ -245,7 +245,7 @@ class VendaController implements ICsvManipulador
     public function atualizarEstoque(Produto $produtoCadastrado, int $novaQuantidade, string $dataAtual): void
     {
         // Abre o arquivo CSV para leitura
-        $arquivo = fopen('produtos.csv', 'r') or throw new Exception('Erro ao abrir arquivo produtos.csv');
+        $arquivo = fopen('produtos.csv', 'r') or throw new \Exception('Erro ao abrir arquivo produtos.csv');
 
         $linhaProduto = null;
         $linhas = [];
@@ -278,7 +278,7 @@ class VendaController implements ICsvManipulador
         fclose($arquivo);
 
         // Abre o arquivo CSV para escrita
-        $arquivo = fopen('produtos.csv', 'w') or throw new Exception('Erro ao abrir arquivo produtos.csv');
+        $arquivo = fopen('produtos.csv', 'w') or throw new \Exception('Erro ao abrir arquivo produtos.csv');
 
         // Escreve todas as linhas na lista de linhas no arquivo CSV
         foreach ($linhas as $linha) {
